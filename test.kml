@@ -1,40 +1,235 @@
-  <?xml version="1.0" encoding="UTF-8" ?> 
-- <kml xmlns="http://www.google.com/earth/kml/2">
-- <Document>
-  <name>EiffelTower.kml</name> 
-- <Style id="khStyle580">
-  <LineStyle id="khLineStyle583" /> 
-  <PolyStyle id="khPolyStyle582" /> 
-- <IconStyle id="khIconStyle584">
-  <icon /> 
-  </IconStyle>
-  <LabelStyle id="khLabelStyle586" /> 
-  </Style>
-- <Placemark>
-  <description>With 2 million visitors the first year and almost 6 million people a year today, the Eiffel Tower is a real crowd pleaser. At the crossroads of the entire world, more than 200 million visitors have come since its construction. At 300 metres (320.75m including antenna), and 7000 tons, it was the world's tallest building until 1930. http://www.paris.org/Monuments/Eiffel/</description> 
-  <name>Eiffel Tower</name> 
-- <LookAt>
-  <longitude>2.294842565986398</longitude> 
-  <latitude>48.85770312379884</latitude> 
-  <range>937.9141723627522</range> 
-  <tilt>-4.351597519384722e-005</tilt> 
-  <heading>-101.6511756746123</heading> 
-  </LookAt>
-  <styleUrl>#khStyle580</styleUrl> 
-- <Style>
-- <IconStyle>
-- <icon>
-  <href>root://icons/palette-3.png</href> 
-  <x>96</x> 
-  <y>128</y> 
-  <w>32</w> 
-  <h>32</h> 
-  </icon>
-  </IconStyle>
-  </Style>
-- <Point>
-  <coordinates>2.29293460923931,48.85819570061303,0</coordinates> 
-  </Point>
-  </Placemark>
-  </Document>
-  </kml>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>q1_sshd.kml</name>
+<Style id="s_ylw-pushpin_hl">
+<IconStyle>
+<scale>1.3</scale>
+<Icon>
+<href>
+http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png
+</href>
+</Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>00ffffff</color>
+</LabelStyle>
+<ListStyle>
+<ItemIcon>
+<href>
+http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png
+</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+<StyleMap id="m_ylw-pushpin">
+<Pair>
+<key>normal</key>
+<styleUrl>#s_ylw-pushpin</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="s_ylw-pushpin">
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>
+http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png
+</href>
+</Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<LabelStyle>
+<color>00ffffff</color>
+</LabelStyle>
+<ListStyle>
+<ItemIcon>
+<href>
+http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png
+</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+<Folder>
+<name>q1</name>
+<open>1</open>
+<Placemark>
+<name>q001</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6553705339945,39.92064348663802,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q002</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6536436167917,39.92197689092222,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q003</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6531573030623,39.9238766075347,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q004</name>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6536639300079,39.92634331808198,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q005</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6563962187158,39.92823468076319,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q006</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6601137064453,39.92898424802394,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q007</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6638267598811,39.92878438879,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q008</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6665438168811,39.92744792131129,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q009</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6685198878523,39.9264931710474,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q010</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6699968942354,39.92478030385014,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q011</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6699892448782,39.92288214844346,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q012</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6694877011375,39.92117515064046,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q013</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6682440359017,39.91965991240689,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q014</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6657623994999,39.91852752453039,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q015</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6640186481462,39.91663351987965,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q016</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6622800215162,39.91568896149614,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q017</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6617763160623,39.91398170519522,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q018</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6620165315704,39.9124622930951,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q019</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6625052505602,39.91113204853724,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q020</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6619906705002,39.90714697354624,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q021</name>
+<open>1</open>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.66372462554,39.9073318688194,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>q022</name>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<coordinates>116.6624802599761,39.9060066089158,0</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>
