@@ -1,0 +1,29 @@
+* 
+{
+	margin:0; padding:0;
+}
+#wrapper 
+{
+	width:960px;
+	_text-align:center;
+	margin:0 auto;
+	padding:10px;
+}
+
+form{
+	margin:10px;
+}
+input,textarea 
+{
+	padding:5px;
+	border:1px #ccc solid;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-o-border-radius:2px;
+}
+tr 
+{
+	margin:5px 0;
+}
+
